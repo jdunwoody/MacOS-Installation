@@ -1,0 +1,8 @@
+[alias]
+	co = checkout
+	br = branch
+	st = status
+	ci = commit
+[user]
+	name = James Dunwoody
+	email = james.dunwoody@eliiza.com.au
