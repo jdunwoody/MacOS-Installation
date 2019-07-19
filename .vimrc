@@ -19,7 +19,7 @@ set tabstop=8
 set shiftwidth=4
 set expandtab
 
-set buftype=nofile 
+"set buftype=nofile 
 
 "remove right-hand scroll bar
 set guioptions-=r
