@@ -1,8 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/jamesdunwoody/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 #export POWERLEVEL9K_MODE='nerdfont-complete'
 #source ~/powerlevel9k/powerlevel9k.zsh-theme
@@ -54,17 +55,6 @@ COMPLETION_WAITING_DOTS="true"
 # much, much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -81,11 +71,8 @@ else
   export EDITOR='mvim'
 fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 
 # Aliases
 alias g='git'
@@ -94,28 +81,11 @@ alias {vim,vi}='/Applications/MacVim.app/Contents/bin/mvim'
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-#export PATH=$PATH:"/Applications/MacVim.app/Contents/bin:/usr/local/miniconda3/bin/"
 export PATH=$PATH:"/Applications/MacVim.app/Contents/bin"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/jamesdunwoody/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/jamesdunwoody/node_modules/tabtab/.completions/serverless.zsh
-
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/jamesdunwoody/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/jamesdunwoody/node_modules/tabtab/.completions/sls.zsh
-
-# tabtab source for slss package
-# uninstall by removing these lines or running `tabtab uninstall slss`
-[[ -f /Users/jamesdunwoody/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/jamesdunwoody/node_modules/tabtab/.completions/slss.zsh
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
-#source  ~/.oh-my-zsh/themes/powerlevel9k/powerlevel9k.zsh-theme
-
-. /usr/local/miniconda3/etc/profile.d/conda.sh
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
