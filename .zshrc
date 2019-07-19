@@ -117,3 +117,5 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home
 
 . /usr/local/miniconda3/etc/profile.d/conda.sh
 
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
