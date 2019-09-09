@@ -3,7 +3,10 @@ let mapleader = ";"
 set autoread
 "set autowriteall
 set number
-set nowrap
+
+"set nowrap
+set wrap linebreak nolist
+
 set scrolloff=3
 set hlsearch
 set incsearch
